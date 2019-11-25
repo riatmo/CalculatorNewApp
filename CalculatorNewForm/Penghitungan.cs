@@ -45,13 +45,13 @@ namespace CalculatorNewForm
             else if (nilai.c == "Pengurangan")
                 {
 
-                    lstHasil.Items.Add(string.Format("Hasil pengurangan {0} + {1} = {2}", nilai.a, nilai.b, pengurangan(nilai.a, nilai.b)));
+                    lstHasil.Items.Add(string.Format("Hasil pengurangan {0} - {1} = {2}", nilai.a, nilai.b, pengurangan(nilai.a, nilai.b)));
                 }
 
             else if (nilai.c == "Perkalian")
             {
 
-                lstHasil.Items.Add(string.Format("Hasil perkalian {0} + {1} = {2}", nilai.a, nilai.b, perkalian(nilai.a, nilai.b)));
+                lstHasil.Items.Add(string.Format("Hasil perkalian {0} * {1} = {2}", nilai.a, nilai.b, perkalian(nilai.a, nilai.b)));
             }
 
 
@@ -59,7 +59,7 @@ namespace CalculatorNewForm
             else if (nilai.c == "Pembagian")
                 {
 
-                lstHasil.Items.Add(string.Format("Hasil pembagian {0} + {1} = {2}", nilai.a, nilai.b, pembagian(nilai.a, nilai.b)));
+                lstHasil.Items.Add(string.Format("Hasil pembagian {0} / {1} = {2}", nilai.a, nilai.b, pembagian(nilai.a, nilai.b)));
             }
         }
 
